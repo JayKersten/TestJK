@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html class="wf-bebasneue-n4-active wf-droidsans-n4-active wf-active">
+  <head>
+  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/accordion-menu.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/icomoon_style.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="stylesheets/inputs.css" />-->
+  <link rel="stylesheet" type="text/css" href="stylesheets/formz.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/repetitive_dates.css" />
+  <meta charset="utf-8" />
+  <title>Dashboard T4TW</title>
+  <link href="stylesheets/layout-css-1.css" rel="stylesheet" type="text/css" />
+  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+  <script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+  <script src="jQueryAssets/jquery-ui-1.9.2.button.custom.min.js" type="text/javascript"></script>
+  <script>
+   var __adobewebfontsappname__="dreamweaver"
+  </script>
+  <link rel="stylesheet" href="http://use.edgefonts.net/c/83d02d/bebas-neue:n4,droid-sans:n4.bCT:P:2,Wdz:P:2/d" />
+  <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+  <script src="http://use.edgefonts.net/droid-sans:n4:default;bebas-neue:n4:default.js" type="text/javascript"></script>
+  <script type="text/javascript" src="scripts/browser-compatibility.js"></script>
+  </head>
+  <body>
+<div class="main_wrapper">
+    <div class="leftColmn">
+    <div class="leftColmnLogo boxshadowRound9"> <img src="images/LogoT4TW.png" alt="" class="image" /> </div>
+    <div class="leftColmnProfile boxshadowRound9">
+        <div class="leftColmnProfilePhoto"> <img src="images/placeholder.png" alt="" class="image1" /> </div>
+        <div class="leftColmnProfileSettings">Hendrick Pietersen <br/>
+        <a title="profile!" href="#" class="anchor"><i class="icon-user"></i></a> <a title="messages!" href="#">&nbsp;&nbsp;<i class="icon-envelop"></i></a> <a title="log-out!" href="#">&nbsp;&nbsp;&nbsp;<i class="icon-exit3"></i></a> </div>
+      </div>
+    <div class="leftColmnMenu"> <img id="headingDashboard" src="images/h2-Dashboard.png" width="165" height="28" alt="" />
+        <section class="ac-container">
+        <div>
+            <input id="ac-1" name="accordion-1" type="checkbox" checked="">
+            <label for="ac-1"><i class="icon-user7"></i>&nbsp;&nbsp;Administrator</label>
+            <article class="ac">
+            <p><a href="#"><i class="icon-cogs"></i>&nbsp;General settings</a> <br/>
+                <a href="#"><i class="icon-user"></i>&nbsp;User administration</a> <br/>
+                <a href="#"><i class="icon-location4"></i>&nbsp;Location administration</a> </p>
+          </article>
+          </div>
+        <div>
+            <input id="ac-2" name="accordion-1" type="checkbox" checked="">
+            <label for="ac-2"><i class="icon-ticket"></i>&nbsp;&nbsp;Events &amp; Tickets</label>
+            <article class="ac">
+            <p><a href="#"><i class="icon-cogs"></i>&nbsp;General settings</a> <br/>
+                <a href="#"><i class="icon-mic5"></i>&nbsp;Create events</a> <br/>
+                <a href="#"><i class="icon-guitar"></i>&nbsp;Manage events</a> </p>
+          </article>
+          </div>
+        <div>
+            <input id="ac-3" name="accordion-1" type="checkbox">
+            <label for="ac-3"><i class="icon-pie4"></i>&nbsp;&nbsp;Reports &amp; Stats</label>
+            <article class="ac">
+            <p><a href="#"><i class="icon-stats"></i>&nbsp;General reports</a> <br/>
+                <a href="#"><i class="icon-stats-up"></i>&nbsp;Financial reports</a> </p>
+          </article>
+          </div>
+        <div>
+            <input id="ac-4" name="accordion-1" type="checkbox">
+            <label for="ac-4"><i class="icon-wrench4"></i>&nbsp;&nbsp;Support</label>
+            <article class="ac">
+            <p><a href="#"><i class="icon-stack-list"></i>&nbsp;FAQ</a> <br/>
+                <a href="#"><i class="icon-graduation"></i>&nbsp;Tutorials (movies)</a> <br/>
+                <a href="#"><i class="icon-ticket"></i>&nbsp;Support ticket</a> </p>
+          </article>
+          </div>
+      </section>
+      </div>
+  </div>
+    <div class="rightColmn liquid lindex-0">
+    <div class="rightColmnHeader boxshadowRound9 cfliquidrow"></div>
+    <div class="rightColmnContent cfliquidrow">
+        <form>
+        <div class="formWrapper cfliquidrow">
+            <div class="formHeader cfliquidrow">Location setup wizzard...</div>
+            <div class="multipageForm cfliquidrow">
+            <div> <span id="stage1" class="multipageStage multipageStage-position">1</span>Create event<span id="stage2" class="multipageStage">2</span>create tickets<span id="stage3" class="multipageStage">3</span>Guestlist</div>
+          </div>
+            <!--End multipageForm--> 
+            <!--PART1-->
+            <div class="formContent">
+            <div class="formDescription">
+                <p><span class="H3Expl"><strong>Create your event</strong></span> <br/>
+                Give your event a title, this will be used as headliner on your ticket. <br/>
+                <br/>
+                This will help to provide your cosumers with automaticly generated information.</p>
+                <br/>
+                <br/>
+                <p><span class="H3Expl"><strong>Date and time settings</strong></span> <br/>
+                Choose between a one time event, or an event that is recuring over time<br/>
+                <br/>
+                <strong>* 1 Time event</strong><br>
+                This is a one time event.<br>
+				Select the date of the event<br>
+                and set the different time options.<br><br>
+                You can ad more days for this event if neccesary.<br><br>
+                
+                <strong>* Repetitive event</strong><br>
+                This is an event that takes place on a scheduled base<br>
+				Select the date of the event<br>
+                and set the different time options.<br><br>
+				
+                </p>
+                <br/>
+                <br/>
+              </div>
+            <div class="formElementsWrapper">
+                <div class="form-wrapper">
+                <div id="formAcountSWP1">
+                    <h3>Event information:</h3>
+                    <div class="inputwrapper">
+                    <div class="labelstandard">
+                        <label>Title of event</label>
+                      </div>
+                    <div class="inputstandard">
+                        <input type="text">
+                      </div>
+                  </div>
+                    <div class="inputwrapper">
+                    <div class="labelstandard">
+                        <label>Type of event</label>
+                      </div>
+                    <div class="inputstandard">
+                        <select name="school" id="schoolContainer">
+                        <option value="">Select or add one...</option>
+                        <option value="Live Concert">Live Concert</option>
+                        <option value="Vondelpark">Vondelpark</option>
+                      </select>
+                      </div>
+                  </div>
+                    <strong><a class="" href="#">&nbsp;<i class="icon-label icon-plus plusPopup"></i></a></strong>
+                    <div class="inputwrapper">
+                    <div class="labelstandard">
+                        <label>Location</label>
+                      </div>
+                    <div class="inputstandard">
+                        <select>
+                        <option value="">Select the location...</option>
+                        <option value="Salsa Club Mystique">Salsa Club Mystique</option>
+                        <option value="Vondelpark">Vondelpark</option>
+                      </select>
+                      </div>
+                    <strong><a class="" href="#">&nbsp;<i class="icon-label icon-plus plusPopup"></i></a></strong> </div>
+                    <div class="inputwrapper"> <br/>
+                    <br/>
+                    <h4 class="blue">Date - time &amp; duration settings</h4>
+                    <div class="inputcheckboxvertical">
+                        <table class="table-radiobtn">
+                        <tbody>
+                            <tr>
+                            <td><input type="radio" name="radiog_dark" id="radio1" class="css-radio" checked="">
+                                <label for="radio1" class="css-radiolabel radGroup2">1 time event</label></td>
+                          </tr>
+                            <tr>
+                            <td><input type="radio" name="radiog_dark" id="radio3" class="css-radio">
+                                <label for="radio3" class="css-radiolabel radGroup2">Repetitive event</label></td>
+                          </tr>
+                          </tbody>
+                      </table>
+                        <br/>
+                        <div id="dt_oneday">
+                        <h4 class="vintagered">&nbsp;&nbsp;One day event \ more days event</h4>
+                        <table class="datetimeTable" width="100%" border="0" cellspacing="5" cellpadding="5">
+                            <tbody>
+                            <tr>
+                                <td class="customClass"><label class="labelDate"><i class="icon-label icon-calendar"></i>Event date</label>
+                                <input class="inputdate" type="date" name="date" id="date" value=""></td>
+                                <td><label class="labelTime"><i class="icon-label icon-clock3"></i>Venue open</label>
+                                <input class="inputtime" type="time" name="time" id="time" value=""  /></td>
+                              </tr>
+                            <tr></tr>
+                            <tr>
+                                <td><label class="labelTime"><i class="icon-label icon-clock3"></i>Start event</label>
+                                <input class="inputtime" type="time" name="time" id="time" value=""  /></td>
+                                <td><label class="labelTime"><i class="icon-label icon-clock3"></i>End event</label>
+                                <input class="inputtime" type="time" name="time" id="time" value=""  /></td>
+                              </tr>
+                            <tr>
+                                <td><p class="blue">Start date to show event:</p></td>
+                              </tr>
+                            <tr>
+                                <td><label class="labelDate"><i class="icon-label icon-calendar"></i>Show event</label>
+                                <input class="inputdate" type="date" name="date" id="date" value=""></td>
+                              </tr>
+                          </tbody>
+                          </table><br>
+						<input value="button" type="button">
+                        <button id="Button1">Button</button>
+                      </div>
+                        <div id="dt_repetitive">
+                        <h4 class="vintagered">&nbsp;&nbsp;Repetitive event</h4>
+                        <div class="datetimePopup_wrapper">
+                            <div class="">
+                            <p class="blue monthpicker_p">&nbsp;&nbsp;First select the day(s)- week(s) - month(s):</p>
+                            <fieldset class="month-picker-fieldset">
+                                <input type="checkbox" name="day" value="Mon" id="Mon">
+                                <label for="Mon" class="month-picker-label">Monday</label>
+                                <input type="checkbox" name="day" value="Tue" id="Tue">
+                                <label for="Tue" class="month-picker-label">Tuesday</label>
+                                <input type="checkbox" name="day" value="Wed" id="Wed">
+                                <label for="Wed" class="month-picker-label">Wednesday</label>
+                                <input type="checkbox" name="day" value="Thu" id="Thu">
+                                <label for="Thu" class="month-picker-label">Thursday</label>
+                                <input type="checkbox" name="day" value="Fri" id="Fri">
+                                <label for="Fri" class="month-picker-label">Friday</label>
+                                <input type="checkbox" name="day" value="Sat" id="Sat">
+                                <label for="Sat" class="month-picker-label">Saturday</label>
+                                <input type="checkbox" name="day" value="Sun" id="Sun">
+                                <label for="Sun" class="month-picker-label">Sunday</label>
+                              </fieldset>
+                            <br/>
+                            <fieldset class="month-picker-fieldset">
+                                <input type="checkbox" name="week" value="1eweek" id="1eweek">
+                                <label for="1eweek" class="month-picker-label">1st week</label>
+                                <input type="checkbox" name="week" value="2eweek" id="2eweek">
+                                <label for="2eweek" class="month-picker-label">2nd week</label>
+                                <input type="checkbox" name="week" value="3eweek" id="3eweek">
+                                <label for="3eweek" class="month-picker-label">3th week</label>
+                                <input type="checkbox" name="week" value="4eweek" id="4eweek">
+                                <label for="4eweek" class="month-picker-label">4th week</label>
+                                <input type="checkbox" name="week" value="laatsteweek" id="laatsteweek">
+                                <label for="laatsteweek" class="month-picker-label">last week</label>
+                                <input type="checkbox" name="week" value="everyweek" id="everyweek">
+                                <label for="everyweek" class="month-picker-label">every week</label>
+                              </fieldset>
+                            <br/>
+                            <fieldset class="month-picker-fieldset">
+                                <input type="checkbox" name="month" value="jan" id="jan">
+                                <label for="jan" class="month-picker-label">Jan</label>
+                                <input type="checkbox" name="month" value="feb" id="feb">
+                                <label for="feb" class="month-picker-label">Feb</label>
+                                <input type="checkbox" name="month" value="mar" id="mar">
+                                <label for="mar" class="month-picker-label">Mar</label>
+                                <input type="checkbox" name="month" value="apr" id="apr">
+                                <label for="apr" class="month-picker-label">Apr</label>
+                                <input type="checkbox" name="month" value="may" id="may">
+                                <label for="may" class="month-picker-label">May</label>
+                                <input type="checkbox" name="month" value="jun" id="jun">
+                                <label for="jun" class="month-picker-label">Jun</label>
+                                <input type="checkbox" name="month" value="jul" id="jul">
+                                <label for="jul" class="month-picker-label">Jul</label>
+                                <input type="checkbox" name="month" value="aug" id="aug">
+                                <label for="aug" class="month-picker-label">Aug</label>
+                                <input type="checkbox" name="month" value="sep" id="sep">
+                                <label for="sep" class="month-picker-label">Sep</label>
+                                <input type="checkbox" name="month" value="oct" id="oct">
+                                <label for="oct" class="month-picker-label">Oct</label>
+                                <input type="checkbox" name="month" value="nov" id="nov">
+                                <label for="nov" class="month-picker-label">Nov</label>
+                                <input type="checkbox" name="month" value="dec" id="dec">
+                                <label for="dec" class="month-picker-label">Dec</label>
+                              </fieldset>
+                            <br/>
+                            <br/>
+                          </div>
+                          </div>
+                        <table class="datetimeTable" width="100%" border="0" cellspacing="5" cellpadding="5">
+                            <tbody>
+                            <tr>
+                                <td class="customClass"><label class="labelDate"><i class="icon-label icon-calendar"></i>1st Event</label>
+                                <input class="inputdate" type="date" name="date" id="date" value=""></td>
+                                <td><label class="labelTime"><i class="icon-label icon-clock3"></i>Venue open</label>
+                                <input class="inputtime" type="time" name="time" id="time" value=""  /></td>
+                              </tr>
+                            <tr></tr>
+                            <tr>
+                                <td><label class="labelTime"><i class="icon-label icon-clock3"></i>Start event</label>
+                                <input class="inputtime" type="time" name="time" id="time" value=""  /></td>
+                                <td><label class="labelTime"><i class="icon-label icon-clock3"></i>End event</label>
+                                <input class="inputtime" type="time" name="time" id="time" value=""  /></td>
+                              </tr>
+                            <tr>
+                                <td><p class="blue">Start date to show event:</p></td>
+                                <td><p class="blue">Show events # of months ahead:</p></td>
+                              </tr>
+                            <tr>
+                                <td><label class="labelDate"><i class="icon-label icon-calendar"></i>Show event</label>
+                                <input class="inputdate" type="date" name="date" id="date" value=""></td>
+                                <td><label class="labelTime"><i class="icon-label icon-uniE76D"></i>Of months</label>
+                                <input class="inputtime" type="number" name="time" id="time" value=""  /></td>
+                              </tr>
+                          </tbody>
+                          </table>
+                      </div>
+                      </div>
+                    <br/>
+                  </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div class="formbtnwrapper">
+                    <div class="buttonwrapperleft"> </div>
+                    <div class="buttonwrapperright">
+                        <div class="rightbtnmain">
+                        <p class="paragraph1">NEXT</p>
+                      </div>
+                        <div class="rightbtnicon"><i class="icon-arrow-right"></i> </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+              </div>
+            <!--form elements wrapper--> 
+          </div>
+            
+            <!--PART2-->
+            <div class="formContent">
+            <div class="formDescription">
+                <p><span class="H3Expl"><strong>Create your event</strong></span> <br/>
+                Give your event a title, this will be used as headliner on your ticket. <br/>
+                <br/>
+                This will help to provide your cosumers with automaticly generated information.</p>
+                <br/>
+                <br/>
+                <p><span class="H3Expl"><strong>Date and time settings</strong></span> <br/>
+                All the options that are turned on, will be presented on the tickets. <br/>
+                <br/>
+                They will give your visitors more information about the location and its possibilities.</p>
+                <br/>
+                <br/>
+              </div>
+            <div class="formElementsWrapper">
+                <div class="form-wrapper">
+                <div id="formAcountSWP1">
+                    <h3>Create the ticket(s):</h3>
+                    <div class="inputwrapper">
+                    <div class="labelstandard">
+                        <label><i class="icon-label icon-ticket"></i>Ticket name</label>
+                      </div>
+                    <div class="inputstandard">
+                        <input type="text">
+                      </div>
+                  </div>
+                    <br>
+                    <br>
+                    <br>
+                    <table>
+                    <tr>
+                        <td><div class="inputwrapper">
+                            <div class="labelstandard">
+                            <label><i class="icon-label icon-ticket"></i>Tickets available</label>
+                          </div>
+                            <div class="inputdivsmall">
+                            <input class="inputsmall" type="text">
+                          </div>
+                          </div></td>
+                        <td style="width:11px;"></td>
+                        <td><div class="inputwrapper">
+                            <div class="labelstandard">
+                            <label><i class="icon-label icon-ticket"></i>Ticket Price</label>
+                          </div>
+                            <div class="inputdivsmall"> <span class="inputcurrency">&#8364;</span>
+                            <input class="inputsmallcurrency" type="currency">
+                          </div>
+                          </div></td>
+                      </tr>
+                    <tr>
+                        <td><div class="inputwrapper">
+                            <div class="labelstandard">
+                            <label><i class="icon-label icon-ticket"></i>Min tickets p\p</label>
+                          </div>
+                            <div class="inputdivsmall">
+                            <input class="inputsmall" type="text">
+                          </div>
+                          </div></td>
+                        <td style="width:11px;"></td>
+                        <td><div class="inputwrapper">
+                            <div class="labelstandard">
+                            <label><i class="icon-label icon-ticket"></i>Max tickets p\p</label>
+                          </div>
+                            <div class="inputdivsmall">
+                            <input class="inputsmall" type="text">
+                          </div>
+                          </div></td>
+                      </tr>
+                  </table>
+                    <div class="inputwrapper">
+                    <div class="labelstandard">
+                        <label><i class="icon-label icon-ticket"></i>Ticket Type</label>
+                      </div>
+                    <div class="inputstandard">
+                        <input type="text">
+                      </div>
+                  </div>
+                  <br><br>
+                  <div class="inputcheckboxvertical">
+                    <table>
+                    <tbody>
+                        <tr>
+                        <td><input type="checkbox" name="checkboxG31" id="checkboxG31" class="css-checkbox">
+                            &nbsp;
+                            <label for="checkboxG31" class="css-cssonofswitchlabel">&nbsp;&nbsp;<i class="icon-label icon-crowd small"></i>&nbsp;Group ticket active</label></td>
+                      </tr>
+                      </tbody>
+                  </table>
+                  </div>
+                 </div>
+              </div>
+              </div>
+            <!--form elements wrapper--> 
+          </div>
+          </div>
+      </form>
+        <!--form wrapper--> 
+      </div>
+    <!--right colmn content--> 
+  </div>
+    <!--right colmn--> 
+  </div>
+<!--main_wrapper-->
+<script type="text/javascript">
+$(function() {
+	$( "#Button1" ).button(); 
+});
+</script>
+</body>
+</html>
